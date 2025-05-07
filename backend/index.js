@@ -8,7 +8,6 @@ const agenda = require("./utils/agendaConnector");
 const sequenceModel = require("./models/sequence.model");
 const cors = require("cors");
 const MONGODB_URI = process.env.MONGODB_URI;
-const CORS_ORIGIN = process.env.CORS_ORIGIN;
 mongoose
   .connect(MONGODB_URI, {
     useNewUrlParser: true,
